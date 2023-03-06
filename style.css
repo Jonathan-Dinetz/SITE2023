@@ -1,0 +1,562 @@
+@font-face {
+    font-family: 'Avara_Bold';
+    src:    url('Bold/Avara-Bold_web.eot');
+    src:    url('Bold/Avara-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('Bold/Avara-Bold_web.woff') format('woff'),
+            url('Bold/Avara-Bold_web.woff2') format('woff2'),
+            url('Bold/Avara-Bold_web.ttf') format('truetype'),
+            url('Bold/Avara-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara_Bold Italic';
+    src:    url('BoldItalic/Avara-Bold_Italic_web.eot');
+    src:    url('BoldItalic/Avara-Bold_Italic_web.eot?#iefix') format('embedded-opentype'),
+            url('BoldItalic/Avara-Bold_Italic_web.woff') format('woff'),
+            url('BoldItalic/Avara-Bold_Italic_web.woff2') format('woff2'),
+            url('BoldItalic/Avara-Bold_Italic_web.ttf') format('truetype'),
+            url('BoldItalic/Avara-Bold_Italic_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+    align-items: center;
+    overflow-x: hidden; /* Hide scrollbars */
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+   
+    color: black;
+    position: relative;
+    font-family: Sligoil-Micro;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration: none;
+
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+h1{
+    font-size:1.25vw;
+    mix-blend-mode: difference;
+    filter: invert(1);
+    color: black;
+    position: relative;
+    font-family: Sligoil-Micro;
+    font-weight:normal;
+    font-style:normal;
+  }
+
+  .nav {
+    display: flex;
+    mix-blend-mode: difference;
+    justify-content: space-between;
+    width: 95vw;
+     position: fixed;
+     padding: 2.5vw;
+     padding-top: 1vw;
+     top: -0.25vw;
+     color: transparent;
+     z-index: 5;
+  }
+
+  .footer {
+    display: flex;
+    mix-blend-mode: difference;
+    justify-content: space-between;
+    width: 95%;
+    position: fixed;
+    left: 2.55%;
+    bottom: 0.6vw;
+    color: transparent;
+    z-index: 7;
+  }
+
+  footer:hover {
+    color: black;
+    cursor: default;
+      }
+
+  .imgcont{
+    width: 100vw;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto ;         
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centerbabe {
+    width: 55vw;
+    height: auto;
+    font-size:2vw;
+    font-family: Sligoil-Micro;
+  }
+
+.spacer {
+    height: 10vw;
+}
+
+/* horizontal scroll controls!!!! */
+
+.dev-image {
+    background: white;
+    width: 100vw;
+    height: 102vh;
+    display: flex;
+    justify-content: left;
+    padding-top: 1vw;
+    padding-left: 5vw;
+    align-items: center;
+   overflow-x: scroll;
+   overflow-y: none;
+   -ms-overflow-style: none;
+   scrollbar-width: none; 
+}
+
+.dev-image:-webkit-scrollbar {
+    display: none;
+}
+
+
+.dev-image-cont{
+    display: flex;
+    align-items: top;
+    padding-right: 10vw;
+    max-width: 40vw;
+    max-height: 35vw;
+    font-size:2vw;
+    font-family: Sligoil-Micro;
+}
+
+
+
+
+
+.dev-tag {
+      padding-top: 1vh;
+      font-size:1.25vw;
+      font-family: Sligoil-Micro;
+    z-index:7;
+}
+
+  /* off to side of work */
+  .tag {
+      position: relative;
+      left: -19.75vw;
+      top: 1.6vw;
+      font-size:1.25vw;
+      font-family: Sligoil-Micro;
+    z-index:7;
+  }
+
+  .tag-notes {
+    position: relative;
+    left: -19.75vw;
+    top: 3.4vw;
+    font-size:1.25vw;
+    font-family: Sligoil-Micro;
+  z-index:7;
+}
+
+  .tag:hover {
+text-decoration: underline;
+  }
+
+  /* slider & slider child for project page */
+
+  #slider {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    left:0vw;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;       
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    z-index: 3;
+  }
+
+  .project-text {
+    background-color: white;
+
+    width: 100vw;
+    padding-left:22.5vw;
+    padding-right: 22.5vw;
+    height: 100vh;
+    overflow-y: scroll;
+    font-size: 2vw;
+    font-family: Sligoil-Micro;
+    z-index: 3;
+}
+
+.project-text-static {
+    background-color: white;
+    width: 55vw;
+    padding-left:22.5vw;
+    padding-right: 22.5vw;
+    height: auto;        
+    font-size: 1.5vw;
+    font-family: Sligoil-Micro;
+    z-index: 3;
+}
+
+.project-text::-webkit-scrollbar {
+    display: none;
+}
+
+.project-text-spacer {
+  height: 15vw;
+}
+  
+ 
+  .slide-butt-child {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 50vh;
+    left: -6.5vw;
+    rotate: 270deg;
+    width: 20vw;
+    height: 2vw;
+    font-size:1.25vw;
+    font-family: Sligoil-Micro;
+    z-index: 3;
+    text-decoration: underline;
+
+
+  }
+
+  .close-slider{
+      position: fixed;
+      top: 70vh;
+      left: 0.65vw;
+      height: 2vw;
+      width: 6vw;
+      font-size:1.25vw;
+    font-family: Sligoil-Micro;
+    rotate: 270deg;
+    justify-content: center;
+    align-items: top;
+     opacity:0%;
+     z-index: 3;
+     text-decoration: underline;
+  }
+
+  
+    /* landing page */
+.full-width {
+    padding-left: 2.5%;
+    padding-top: 1.25%;
+    width: 95%;
+    font-size:2.75vw;
+    font-family: Sligoil-Micro;
+    letter-spacing: -1px;
+}
+
+.nav-mobile-expand {
+    display: none;
+}
+
+.nav-narrow {
+ display: none;
+}
+
+.page-title {
+    display: none;
+    }
+
+.menu {
+        display: none;
+    }
+
+.tag-mobile {
+        display: none;
+    }
+
+.tag-mobile-scroll {
+        display: none;
+    }
+
+@media (max-width: 600px) {
+
+.nav-mobile-expand {
+    background: none;
+    scale: 0;
+    display: grid;
+position: fixed;
+top: 25vh;
+z-index: 7;
+width: 100vw;
+height: 50vh;
+grid-template-columns: auto;       
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.nav-mobile-comp {
+    background: none;
+    font-size: 12vw;
+    font-family: Sligoil-Micro;
+    line-height: 100%;
+    color: transparent;
+}
+
+.menu-butt-open {
+    mix-blend-mode: difference;
+    filter: invert(1);
+position: fixed;
+top: 2.75vw;
+right: 2.5vw;
+background: transparent;
+height: 25px;
+width: 16vw;
+z-index: 16;
+    }
+
+.menu-butt-close {
+    mix-blend-mode: difference;
+    filter: invert(1);
+    position: fixed;
+    top: 2.75vw;
+    right: 2.5vw;
+    background: transparent;
+    height: 25px;
+    width: 16vw;
+    z-index: 15;
+}
+
+
+.page-title {
+    display: flex;
+    position: fixed;
+    top: 2.5vw;
+    left: 2.5vw;
+    mix-blend-mode: difference;
+    filter: invert(1);
+    z-index: 10;
+    font-family: Sligoil-Micro;
+    font-size: 4vw;
+    font-family: Sligoil-Micro;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        top: 2.5vw;
+        right: 8vw;
+        mix-blend-mode: difference;
+        filter: invert(1);
+        z-index: 10;
+        font-family: Sligoil-Micro;
+        font-size: 4vw;
+        font-family: Sligoil-Micro;
+        }
+
+    .square{
+        
+        height: 4vw;
+        width: 4vw;
+        background: black;
+        position: fixed;
+        right: 2.5vw;
+        top: 3.4vw;
+        z-index: 6;
+        border-radius: 50%;
+    }
+
+    .close {
+        height: 4vw;
+        width: 4vw;
+        background: transparent;
+        position: fixed;
+        right: 2.5vw;
+        top: 3.4vw;
+        z-index: 6;
+        border-radius: 50%;
+    }
+
+    .dev-image {
+        background: transparent;
+        min-height: 90vh;
+        width: 100vw;
+        padding-left: 2.5vw;
+        display: flex;
+        position: fixed;
+        top:0;
+        left: 0;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .dev-image-cont{
+        display: flex;
+        align-items: top;
+        padding-right: 15vw;
+        max-width: 85vw;
+        max-height: 100vh;
+        font-family: Sligoil-Micro;
+    }
+    
+    .dev-tag {
+          padding-top: 1vh;
+          font-size: 4vw;
+          font-family: Sligoil-Micro;
+          z-index:0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-narrow {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    width: 100%;
+    height: 21vw;
+    position: fixed;
+    padding-left: 2.5vw;
+    top: -0.25vw;
+    color: transparent;
+    z-index: 5;
+    }
+
+    .nav-narrow-short {
+        display: flex;
+        background: white;
+        justify-content: space-between;
+        width: 100%;
+        height: 10vw;
+        position: fixed;
+        padding-left: 2.5vw;
+        top: -0.25vw;
+        color: transparent;
+        z-index: 5;
+        }
+
+    .full-width {
+        font-size:5vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+    h1:hover {
+        color:black;
+    }
+
+    h1:active {
+        color:black;
+            }
+
+    .centerbabe {
+        width: inherit;
+    }
+
+    .tag {
+        display: none;
+    }
+
+   
+    .tag-mobile {
+        display: flex;
+        position: fixed;
+        left: 2.5vw;
+        top: 14.2vw;
+        font-size: 4vw;
+        font-family: Sligoil-Micro;
+        z-index:5;
+    }
+
+    .tag-mobile-scroll {
+        display: flex;
+        position: relative;
+        left: 0;
+        top: -1vh;
+        font-size: 4vw;
+        font-family: Sligoil-Micro;
+        z-index:0;
+    }
+
+    .imgcont{
+        width: 95vw;
+        margin-left: 2.5vw;
+        margin-top: 7vw;
+      }
+
+    .mobile-spacer {
+        height: 10vw;
+        width: 100vw;
+    }
+
+    .project-text {
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-size: 4vw;
+    }
+    .project-text-spacer {
+        height: 25vw;
+      }
+
+    .slide-butt-child {
+        mix-blend-mode: difference;
+        filter: invert(1);
+        width: 40vw;
+        rotate: 0deg;
+        top:14.2vw;
+        font-size: 4vw;
+        left: 59.5vw;
+        z-index: 5;
+    }
+
+    .close-slider {
+         mix-blend-mode: difference;
+        filter: invert(1);
+        width: 40vw;
+        rotate: 0deg;
+        top:14.2vw;
+        font-size: 4vw;
+        left: 81vw;
+        z-index: 5;
+    }
+
+    .project-text-static {
+        background-color: white;
+        width: 95vw;
+        padding-left:2.5vw;
+        padding-right: 2.5vw;
+        height: auto;        
+        font-size: 4vw;
+        font-family: Sligoil-Micro;
+        z-index: 3;
+    }
+
+
+    .spacer {
+        display: none;
+    }
+
+    .tag-notes{
+        display: none;
+    }
+  }

@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>shredder</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.typekit.net/vbu2ynd.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="mobile-spacer"></div>
+
+
+    <div class="nav">
+        <h1><a href="finished.html">
+                << back</a>
+        </h1>
+    </div>
+
+
+    <div id="nav-mobile-expand" class="nav-mobile-expand">
+        <a id="navmobilecomp" class="nav-mobile-comp" href="finished.html">FINISHED </a>
+        <a id="navmobilecomp2" class="nav-mobile-comp" href="development.html">DEVELOPMENT </a>
+        <a id="navmobilecomp3" class="nav-mobile-comp" href="notes.html">NOTES </a>
+        <a id="navmobilecomp4" class="nav-mobile-comp" href="contact.html">CONTACT </a>
+    </div>
+    <div id="menuopen" class="menu-butt-open" onclick="myFunction('square'), 
+    visibility('close'), hideself('menuopen'), opensesame('navmobilecomp'), opensesame('navmobilecomp2'),
+    opensesame('navmobilecomp3'), opensesame('navmobilecomp4'), display('nav-mobile-expand')">
+    </div>
+    <div id="menuclose" class="menu-butt-close" onclick="myFunctionreverse('square'), 
+    invisibility('close'), showself('menuopen'), shutdownsesame('navmobilecomp'), 
+    shutdownsesame('navmobilecomp2'),shutdownsesame('navmobilecomp3'),shutdownsesame('navmobilecomp4')
+    displaynone('nav-mobile-expand')">
+    </div>
+
+    <div id="square" class="square"></div>
+    <div id="close" class="close"></div>
+
+    <div class="nav-narrow">
+    </div>
+
+    <a href="finished.html" class="page-title" style="text-decoration: underline;">finished</a>
+
+    <div class="menu">MENU
+    </div>
+
+    <div class="footer">
+        <h1>JONATHAN</h1>
+        <h1>SAMUEL</h1>
+        <h1>DINETZ</h1>
+    </div>
+
+    <div id="slider" class="slider">
+        <div class="project-text">
+            <div class="project-text-spacer"></div>
+
+            This machine is one part of a stage show, aiming, in some small part, to denaturalize the alienation
+            encompassing our perceptions, actions, and memories.
+            <br><br>
+            I’ve been working on a physical extrapolation of these dynamics and the infrastructure that upholds them:
+            delivering to domestic products what hunting delivers to ground beef.
+
+            <div class="project-text-spacer"></div>
+        </div>
+    </div>
+
+    <div id="trigger" class="slide-butt-child"
+        onclick="slideop('slider'), slideophide('trigger'), slideopshow('close-slider')">
+        PROJECT INFO+</div>
+
+    <div id="close-slider" class="close-slider"
+        onclick="slideopreverse('slider'),  slideophide('close-slider'), slideopshow('trigger')">
+        CLOSE X
+    </div>
+
+    <div class="imgcont">
+        <div class="tag">shredder</div>
+        <img class="centerbabe" src="images/shredder.jpg">
+    </div>
+
+    <div class="tag-mobile">shredder</div>
+
+
+    <div class="imgcont">
+        <img class="centerbabe" src="images/side 2.jpg">
+    </div>
+
+    <div class="imgcont">
+        <img class="centerbabe" src="images/teeth.jpg">
+    </div>
+
+    <div class="imgcont">
+        <img class="centerbabe" src="images/shredderpin.jpg">
+    </div>
+    <div class="imgcont">
+        <img class="centerbabe" src="images/shreddercorner.jpg">
+    </div>
+
+
+
+    <div class="mobile-spacer"></div>
+    <div class="spacer"></div>
+
+    <script src="script.mjs"></script>
+
+</body>
