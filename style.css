@@ -16,6 +16,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.mini {
+    height:86vh;
+}
+
 a {
    
     color: black;
@@ -277,6 +281,11 @@ text-decoration: underline;
     }
 
 @media (max-width: 600px) {
+
+    .mini {
+        height: auto;
+        width: 95vw;
+    }
 
 .nav-mobile-expand {
     background: none;
